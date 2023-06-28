@@ -20,7 +20,7 @@ const Portfolio =()=> {
       setEmail('');
       setMessage('')
     } catch (error) {
-      console.error('Error creating room:', error);
+      console.error('Error creating userData:', error);
     }
 }
     return (
@@ -177,11 +177,11 @@ const Portfolio =()=> {
                             
                             <a href="https://github.com/GauravPandey123webdeveloper">GitHub</a>
                             <input type="text" placeholder="Your Name" value={name}
-                           onChange={(e) => setName(e.target.value)} />
+                           onChange={(e) => setName(e.target.value)} required/>
                             <input type="email" placeholder="E-Mail" value={email}
-                           onChange={(e) => setEmail(e.target.value)} />
+                           onChange={(e) => setEmail(e.target.value) } required/>
                             <textarea cols="30" rows="6" placeholder="Type Your Message" value={message}
-                           onChange={(e) => setMessage(e.target.value)}></textarea>
+                           onChange={(e) => setMessage(e.target.value) }required ></textarea>
                             <input className="btn btn-primary" type="submit" name="submit" />
                         </form>
                     </div>
