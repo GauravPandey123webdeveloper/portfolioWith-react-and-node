@@ -36,7 +36,7 @@ const Portfolio =()=> {
                     <ul className="menu-items">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="https://drive.google.com/file/d/1QQTNEsDE30LpO1ntzlDminLGaQuT6ZH9/view?usp=sharing">Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1AJyP8oEaSbmJkKHAQVdmGWeD2Jc43Z-_/view?usp=sharing">Resume</a></li>
                         <li><a href="https://drive.google.com/file/d/1n9i3UD9-bI2y3dlNy-dM-zkTCjJpinxk/view?usp=sharing">IntroVideo</a></li>
                         <li><a href="#project-list">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
