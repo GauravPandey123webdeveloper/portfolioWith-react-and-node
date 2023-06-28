@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node src/index.js"
+    "test": "node src/index.js",
+    "build": "npm i",
+    "start":"node src/index.js"
   },
   "author": "Gaurav pandey",
   "license": "ISC",
